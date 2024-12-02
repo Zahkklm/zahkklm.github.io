@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
 
-  <title>Karakuzu İnşaat</title>
+  <title>BMT Makina Balans</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +27,19 @@ TemplateMo 591 villa agency
 https://templatemo.com/tm-591-villa-agency
 
 -->
+  <style>
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+  </style>
 </head>
 
-<body>
+<body style="margin: 0;">
 
   <div class="wabtn" id="wabutton">
     <a wa-tooltip="Buradan bizimle 7/24 iletişime geçebilirsiniz." target="_blank"
@@ -58,75 +68,51 @@ https://templatemo.com/tm-591-villa-agency
     </a>
   </div>
 
-  <div class="sub-header">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-8">
-          <ul class="info">
-            <li><i class="fa fa-phone"></i> 0532 495 46 27</li>
-            <a href="contact.html#contact-page"><a href="contact.html#contact-page"><li><i class="fa fa-map"></i> Kısıkköy Sanayi Sitesi Metal İşleri 4Nolu Cadde No 147 Menderes/İzmir</li></a></a>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-md-4">
-          <ul class="social-links">
-            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://x.com/minthu" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="index.html" class="latx">
-              <img src="assets/images/logo.png"></img>
-            </a>
-            <!-- ***** Logo End ***** -->
-            <!-- ***** Menu Start ***** -->
-            <ul class="nav">
-              <li><a href="index.html" class="active">Anasayfa</a></li>
-              <li><a href="products.html">Ürünler</a></li>
-              <li><a href="properties.html">Gayrimenkul</a></li>
-              <li><a href="contact.html">İletişim</a></li>
-              <li><a href="tel:+905324954627"><i class="fa fa-phone"></i> Bizi arayın!</a></li>
-            </ul>
-            <a class='menu-trigger'>
-              <span>Menu</span>
-            </a>
-            <!-- ***** Menu End ***** -->
-          </nav>
+  <header style="width: 50%;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid"> <!-- Logo --> <a class="navbar-brand" href="index.html"> <img
+            src="assets/images/logo.png" alt="Logo" style="height: 40px;"> </a> <button class="navbar-toggler"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+        <!-- Navbar Items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"> <a class="nav-link active" aria-current="page" href="index.html">Anasayfa</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="products.html">Makinelerimiz</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="contact.html">İletişim</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="tel:+905324954627"><i class="fa fa-phone"></i> Bizi
+                arayın!</a> </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
+    </nav>
+  </header> <!-- ***** Header Area End ***** -->
+
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+
+
 
   <div class="main-banner">
     <div class="owl-carousel owl-banner">
       <div class="item item-1">
         <div class="header-text">
-          <span class="category">İzmir, <em>Urla</em></span>
-          <h2>Kolayca<br>sizde bir gayrimenkul sahibi olun!</h2>
+          <span class="category">İzmir, <em>Menderes, Kısıkköy</em></span>
+          <h2>Dayanıklı <br>Güvenli Makinalar</h2>
         </div>
       </div>
       <div class="item item-2">
         <div class="header-text">
-          <span class="category">İzmir, <em>Alsancak</em></span>
-          <h2>Yeni<br>evinizin sahibi olun!</h2>
+          <span class="category">İzmir, <em>Menderes, Kısıkköy</em></span>
+          <h2>Kullanışlı<br> onaylı ürünler</h2>
         </div>
       </div>
       <div class="item item-3">
         <div class="header-text">
-          <span class="category">İzmir, <em>Konak</em></span>
-          <h2>Hemen arayın!<br>ve size uygun gayrimenkulu seçin!</h2>
+          <span class="category">İzmir, <em>Menderes, Kısıkköy</em></span>
+          <h2>40 yılı aşkın deneyim...</h2>
         </div>
       </div>
     </div>
@@ -137,13 +123,13 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4">
           <div class="left-image">
-            <img src="assets/images/featured.jpg" alt="">
+            <img src="assets/images/makina1.jpeg" alt="">
           </div>
         </div>
         <div class="col-lg-5">
           <div class="section-heading">
             <h6>| Projelerimiz</h6>
-            <h2>En İyi İnşaat Çözümleri & Müşteri Memnuniyeti</h2>
+            <h2>Kaliteli Makina Hizmeti & Müşteri Memnuniyeti</h2>
           </div>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
@@ -157,8 +143,7 @@ https://templatemo.com/tm-591-villa-agency
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                   <strong>Güvenilirlik, kalite ve müşteri memnuniyeti</strong> ilkelerini benimseyen firmamız,
-                  sektördeki yenilikçi yaklaşımlarımız ve deneyimli ekibimizle projelerinizi zamanında ve bütçenize
-                  uygun şekilde tamamlar. Detaylı işçilik ve 40 yılı aşkın deneyimimizle konfor ve huzur sunuyoruz.
+                  sektördeki yenilikçi yaklaşımlarımız ve güvenilir ekibimizle taleplerinize en uygun hizmeti sunuyoruz.
                 </div>
               </div>
             </div>
@@ -166,16 +151,14 @@ https://templatemo.com/tm-591-villa-agency
               <h2 class="accordion-header" id="headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  İnşaat Süreci Nasıl İşler?
+                  Doğru makine seçimi nasıl yapılır?
                 </button>
               </h2>
               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>Başarılı bir inşaat projesi</strong> için uzman ekip, şeffat ve profesyonel yönetimlerle
-                  işlerin
-                  planlanması, tasarlanması, gerçekleştirilmesi gerekmektedir.
-                  Aklınıza takılanlar için bizimle WhatsApp üzerinden görüşmenizi bekleriz.
+                  <strong>Doğru makina seçimi için</strong> sektör deneyimi ve bilgisi gereklidir. Aklınıza takılanlar
+                  için WhatsApp üzerinden bizle görüşebilirsiniz.
                 </div>
               </div>
             </div>
@@ -189,7 +172,7 @@ https://templatemo.com/tm-591-villa-agency
               <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                  <strong>X İnşaat</strong> olarak 40 yılı aşkın sürede 300'den fazla anahtar teslim etmiş
+                  <strong>BMT Makina Balans</strong> olarak 40 yılı aşkın sürede 300'den fazla kuruluşla iş yapmış
                   bulunmaktayız.
                 </div>
               </div>
@@ -202,11 +185,11 @@ https://templatemo.com/tm-591-villa-agency
             <ul>
               <li>
                 <img src="assets/images/info-icon-01.png" alt="" style="max-width: 52px;">
-                <h4>Projeler<br><span>500+ Tamamlanmış Proje</span></h4>
+                <h4>Çeşitlilik<br><span>Geniş Yelpaze</span></h4>
               </li>
               <li>
                 <img src="assets/images/info-icon-02.png" alt="" style="max-width: 52px;">
-                <h4>Sözleşme<br><span>Hemen Hazır</span></h4>
+                <h4>Teslim<br><span>Hemen Hazır</span></h4>
               </li>
               <li>
                 <img src="assets/images/info-icon-03.png" alt="" style="max-width: 52px;">
@@ -214,7 +197,7 @@ https://templatemo.com/tm-591-villa-agency
               </li>
               <li>
                 <img src="assets/images/info-icon-04.png" alt="" style="max-width: 52px;">
-                <h4>Güvenlik<br><span>7/24 Güvenlik Kontrolü</span></h4>
+                <h4>Güvenlik<br><span>Onaylanmış Ürünler</span></h4>
               </li>
             </ul>
           </div>
@@ -229,8 +212,8 @@ https://templatemo.com/tm-591-villa-agency
       <div class="row">
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
-            <h6>| Tanıtım Videoları</h6>
-            <h2>Projelerimize Yakından Bakış</h2>
+            <h6>| Video</h6>
+            <h2>Plastik Naylon Kurutma Makinesi</h2>
           </div>
         </div>
       </div>
@@ -239,16 +222,18 @@ https://templatemo.com/tm-591-villa-agency
 
   <div class="video-content">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-10 offset-lg-1">
-          <div class="video-frame">
-            <img src="assets/images/video-frame.jpg" alt="">
-            <a href="https://www.youtube.com/watch?v=M7OcWqyFTFA" target="_blank"><i class="fa fa-play"></i></a>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="video-frame d-flex justify-content-center">
+            <video width="50%" height="50%" controls>
+              <source src="assets/images/makina3.mp4">
+            </video>
           </div>
         </div>
       </div>
     </div>
   </div>
+
 
   <div class="fun-facts">
     <div class="container">
@@ -258,20 +243,19 @@ https://templatemo.com/tm-591-villa-agency
             <div class="row">
               <div class="col-lg-4">
                 <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="300" data-speed="1000"></h2>
-                  <p class="count-text ">Tamamlanan<br>Projeler</p>
+                  <h2 class="timer count-title count-number" data-to="300" data-speed="1000">
+                    <h2 class="count-title">+</h2>
+                  </h2>
+
+                  <p class="count-text ">Müşteri <br>Sayımız</p>
                 </div>
               </div>
               <div class="col-lg-4">
                 <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="40" data-speed="1000"></h2>
+                  <h2 class="timer count-title count-number" data-to="40" data-speed="1000">
+                    <h2 class="count-title">+</h2>
+                  </h2>
                   <p class="count-text ">Yıllık<br>Deneyim</p>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="counter">
-                  <h2 class="timer count-title count-number" data-to="35" data-speed="1000"></h2>
-                  <p class="count-text ">Ödüller<br>2024</p>
                 </div>
               </div>
             </div>
@@ -289,7 +273,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4">
           <div class="section-heading">
             <h6>| En İyi Fırsatlar</h6>
-            <h2>Size uygun en iyi gayrimenkulu seçin!</h2>
+            <h2>Size uygun en iyi ürünü seçin!</h2>
           </div>
         </div>
         <div class="col-lg-12">
@@ -299,15 +283,17 @@ https://templatemo.com/tm-591-villa-agency
                 <ul class="nav nav-tabs" role="tablist">
                   <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="apartment-tab" data-bs-toggle="tab" data-bs-target="#apartment"
-                      type="button" role="tab" aria-controls="apartment" aria-selected="true">Daire</button>
+                      type="button" role="tab" aria-controls="apartment" aria-selected="true">Plastik Akromel
+                      Makinesi</button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="villa-tab" data-bs-toggle="tab" data-bs-target="#villa" type="button"
-                      role="tab" aria-controls="villa" aria-selected="false">Villa</button>
+                      role="tab" aria-controls="villa" aria-selected="false">Plastik Naylon Kurutma Makinesi</button>
                   </li>
                   <li class="nav-item" role="presentation">
                     <button class="nav-link" id="penthouse-tab" data-bs-toggle="tab" data-bs-target="#penthouse"
-                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Çatı Katı</button>
+                      type="button" role="tab" aria-controls="penthouse" aria-selected="false">Plastik Naylon Kırma
+                      Makinesi</button>
                   </li>
                 </ul>
               </div>
@@ -317,25 +303,23 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Toplam Alan <span>185 m²</span></li>
-                          <li>Kat Numarası <span>26. Kat</span></li>
-                          <li>Oda Sayısı <span>4</span></li>
-                          <li>Otopark <span>Evet</span></li>
-                          <li>Ödeme Süreci <span>Banka</span></li>
+                          <li>Üretim Hızı<span>50-100 kg/saat</span></li>
+                          <li>Ana Motor Gücü <span>15-45 kW</span></li>
+                          <li>Isıtma Gücü <span>30-60 kW</span></li>
+                          <li>Makine Ebatları <span>3 m x 1.5 m x 2 m</span></li>
+                          <li>Ağırlık <span>1.5ton</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-01.jpg" alt="">
+                      <img src="assets/images/plastik_akromel_makinasi_1.png" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Ekstra Bilgiler</h4>
-                      <p>Modern inşaat projelerimiz, kaliteli malzeme kullanımı ve yenilikçi mühendislik çözümleri ile
-                        dikkat çekmektedir. Projelerimizde estetik ve işlevselliği bir araya getiriyoruz.
-                        <br><br>İnşaat süreçlerimiz ve projelerimiz hakkında daha fazla bilgi almak için web sitemizi
-                        ziyaret edebilir veya doğrudan bizimle iletişime geçebilirsiniz. Ayrıca, en son projelerimizi ve
-                        yenilikleri takip etmek için sosyal medya hesaplarımızı inceleyebilirsiniz.
-                      </p>
+                      <h4>Açıklama</h4>
+                      <p>Plastik akromel makinesi, genellikle plastik ürünlerin şekillendirilmesi, kesilmesi ve
+                        işlenmesi için kullanılan bir üretim ekipmanıdır. Bu makine, akromel (kalıp) yöntemiyle plastik
+                        malzemeleri istenilen tasarım ve boyutlarda işler. Ürün yelpazesi, genellikle endüstriyel
+                        ambalaj malzemeleri, plastik kaplar, şişeler ve diğer plastik ürünleri içerir.<br></p>
 
                       <div class="icon-button">
                         <a href="tel:+905324954627"><i class="fa fa-phone"></i> Bizi Arayın!</a>
@@ -348,24 +332,25 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Toplam Alan <span>250 m²</span></li>
-                          <li>Kat Numarası <span>26. Kat</span></li>
-                          <li>Oda Sayısı <span>5</span></li>
-                          <li>Otopark <span>Evet</span></li>
-                          <li>Ödeme Süreci <span>Banka</span></li>
+                          <li>Kurutma Kapasitesi <span>100-150 kg/saat</span></li>
+                          <li>Motor Gücü <span>7.5 kW</span></li>
+                          <li>Makine Ebatları: <span> 2.5 m x 1.2 m x 1.8 m</span></li>
+                          <li>Enerji Gereksinimi <span>380V / 50Hz</span></li>
+                          <li>Ağırlık <span>1 ton</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-02.jpg" alt="">
+                      <img src="assets/images/makina1.jpeg" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Villa Hakkında Detaylar</h4>
-                      <p>Modern inşaat projelerimiz, kaliteli malzeme kullanımı ve yenilikçi mühendislik çözümleri ile
-                        dikkat çekmektedir. Projelerimizde estetik ve işlevselliği bir araya getiriyoruz.
-                        <br><br>İnşaat süreçlerimiz ve projelerimiz hakkında daha fazla bilgi almak için web sitemizi
-                        ziyaret edebilir veya doğrudan bizimle iletişime geçebilirsiniz. Ayrıca, en son projelerimizi ve
-                        yenilikleri takip etmek için sosyal medya hesaplarımızı inceleyebilirsiniz.
+                      <h4>Açıklama</h4>
+                      <p>
+                        Plastik kurutma makinesi, plastik malzemelerin (granül, kırılmış plastik veya naylon) nemini
+                        gidermek için kullanılan bir ekipmandır. Özellikle geri dönüşüm ve plastik üretim süreçlerinde,
+                        malzemenin kurutulması kaliteyi artırmak ve üretim sürecini optimize etmek için kritik bir
+                        adımdır. Nemli plastik, işleme sırasında ürün kalitesini düşürebileceği için kurutma işlemi
+                        önemlidir.
                       </p>
 
                       <div class="icon-button">
@@ -379,24 +364,25 @@ https://templatemo.com/tm-591-villa-agency
                     <div class="col-lg-3">
                       <div class="info-table">
                         <ul>
-                          <li>Toplam Alan <span>320 m²</span></li>
-                          <li>Kat Numarası <span>34. Kat</span></li>
-                          <li>Oda Sayısı <span>6</span></li>
-                          <li>Otopark <span>Evet</span></li>
-                          <li>Ödeme Süreci <span>Banka</span></li>
+                          <li>Kırma Kapasitesi <span>200-300 kg/saat</span></li>
+                          <li>Motor Gücü <span>11-15 kW</span></li>
+                          <li>Bıçak Sayısı <span>12 sabit bıçak ve 6 döner bıçak </span></li>
+                          <li>Makine Ebatları <span>2.8 m x 1.5 m x 2 m</span></li>
+                          <li>Ağırlık <span>1.5ton</span></li>
                         </ul>
                       </div>
                     </div>
                     <div class="col-lg-6">
-                      <img src="assets/images/deal-03.jpg" alt="">
+                      <img src="assets/images/plastik_natlon_kirma_makinesi_1.png" alt="">
                     </div>
                     <div class="col-lg-3">
-                      <h4>Çatı Katı Hakkında Ekstra Bilgiler</h4>
-                      <p>Modern inşaat projelerimiz, kaliteli malzeme kullanımı ve yenilikçi mühendislik çözümleri ile
-                        dikkat çekmektedir. Projelerimizde estetik ve işlevselliği bir araya getiriyoruz.
-                        <br><br>İnşaat süreçlerimiz ve projelerimiz hakkında daha fazla bilgi almak için web sitemizi
-                        ziyaret edebilir veya doğrudan bizimle iletişime geçebilirsiniz. Ayrıca, en son projelerimizi ve
-                        yenilikleri takip etmek için sosyal medya hesaplarımızı inceleyebilirsiniz.
+                      <h4>Açıklama</h4>
+                      <p>Plastik naylon kırma makinesi, plastik atıkları küçük parçalara ayırarak geri dönüşüm
+                        süreçlerine hazırlayan bir ekipmandır. Genellikle atık plastik filmler, naylon torbalar, hurda
+                        plastik parçalar gibi malzemeleri işler. Makine, güçlü motoru ve keskin bıçakları sayesinde
+                        homojen boyutlarda kırma işlemi gerçekleştirir. Böylece malzeme, yıkama, kurutma veya granül
+                        işleme gibi sonraki aşamalara uygun hale getirilir. Kırma kapasitesi ve motor gücü, makinenin
+                        işleme hızını ve verimliliğini belirleyen önemli faktörlerdir.
                       </p>
 
                       <div class="icon-button">
@@ -420,24 +406,16 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
             <h6>| Projeler</h6>
-            <h2>Beğeneceğiniz En İyi Mülkleri Sunuyoruz</h2>
+            <h2>Uygun Fiyatlı En Kaliteli Makineleri Sunuyoruz</h2>
           </div>
         </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-01.jpg" alt=""></a>
-            <span class="category">Lüks Villa</span>
+            <a href="property-details.html"><img src="assets/images/plastik_akromel_makinasi_1.png" alt=""></a>
             <h6>₺2.264.000</h6>
-            <h4><a href="property-details.html">24 Yeni Sokak Kadıköy, İstanbul 24560</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>8</span></li>
-              <li>Banyolar: <span>8</span></li>
-              <li>Alan: <span>545m²</span></li>
-              <li>Kat: <span>3</span></li>
-              <li>Otopark: <span>6 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Akromel Makinesi</a></h4>-
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -445,17 +423,9 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-02.jpg" alt=""></a>
-            <span class="category">Lüks Villa</span>
+            <a href="property-details.html"><img src="assets/images/plastik_cirpma.png" alt=""></a>
             <h6>₺1.180.000</h6>
-            <h4><a href="property-details.html">54 Orta Cadde, Florida, OR 27001</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>6</span></li>
-              <li>Banyolar: <span>5</span></li>
-              <li>Alan: <span>450m²</span></li>
-              <li>Kat: <span>3</span></li>
-              <li>Otopark: <span>8 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Çırpma Makinesi</a></h4>
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -463,17 +433,9 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-03.jpg" alt=""></a>
-            <span class="category">Lüks Villa</span>
+            <a href="property-details.html"><img src="assets/images/plastik_yikama_havuzu_1.png" alt=""></a>
             <h6>₺1.460.000</h6>
-            <h4><a href="property-details.html">26 Eski Cadde, Miami, OR 38540</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>5</span></li>
-              <li>Banyolar: <span>4</span></li>
-              <li>Alan: <span>225m²</span></li>
-              <li>Kat: <span>3</span></li>
-              <li>Otopark: <span>10 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Yıkama Havuzu</a></h4>
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -481,17 +443,9 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-04.jpg" alt=""></a>
-            <span class="category">Daire</span>
+            <a href="property-details.html"><img src="assets/images/plastik_natlon_kirma_makinesi_1.png" alt=""></a>
             <h6>₺584.500</h6>
-            <h4><a href="property-details.html">12 Yeni Cadde, Miami, OR 12650</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>4</span></li>
-              <li>Banyolar: <span>3</span></li>
-              <li>Alan: <span>125m²</span></li>
-              <li>Kat: <span>25</span></li>
-              <li>Otopark: <span>2 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Naylon Kıırma Makinesi</a></h4>
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -499,17 +453,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-05.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/makina1.jpeg" alt=""></a>
             <span class="category">Çatı Katı</span>
             <h6>₺925.600</h6>
-            <h4><a href="property-details.html">34 Sahil Cadde, Miami, OR 42680</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>4</span></li>
-              <li>Banyolar: <span>4</span></li>
-              <li>Alan: <span>180m²</span></li>
-              <li>Kat: <span>38</span></li>
-              <li>Otopark: <span>2 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Naylon Kurutma Makinesi</a></h4>
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -517,17 +464,10 @@ https://templatemo.com/tm-591-villa-agency
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="item">
-            <a href="property-details.html"><img src="assets/images/property-06.jpg" alt=""></a>
+            <a href="property-details.html"><img src="assets/images/makina8.jpeg" alt=""></a>
             <span class="category">Modern Daire</span>
             <h6>₺450.000</h6>
-            <h4><a href="property-details.html">22 Yeni Cadde, Portland, OR 16540</a></h4>
-            <ul>
-              <li>Yatak Odaları: <span>3</span></li>
-              <li>Banyolar: <span>2</span></li>
-              <li>Alan: <span>165m²</span></li>
-              <li>Kat: <span>26</span></li>
-              <li>Otopark: <span>3 araç</span></li>
-            </ul>
+            <h4><a href="property-details.html">Plastik Naylon Kurutma Makinesi</a></h4>
             <div class="main-button">
               <a href="contact.html#contact-page">Ziyaret Planla</a>
             </div>
@@ -543,7 +483,7 @@ https://templatemo.com/tm-591-villa-agency
         <div class="col-lg-4 offset-lg-4">
           <div class="section-heading text-center">
             <h6>| İletişim</h6>
-            <h2>Temsilcilerimizle İletişime Geçin</h2>
+            <h2>Bizimle İletişime Geçin</h2>
           </div>
         </div>
       </div>
@@ -564,11 +504,12 @@ https://templatemo.com/tm-591-villa-agency
             <div class="col-lg-12">
               <div class="item address">
                 <img src="assets/images/location.png" alt="" style="max-width: 52px;">
-                <h6>ADRES<br><span>Kısıkköy Sanayi Sitesi, Metal İşleri, 4 No'lu Cadde, No: 147, Menderes, İzmir</span></h6>
+                <h6>ADRES<br><span>Kısıkköy Sanayi Sitesi, Metal İşleri, 4 No'lu Cadde, No: 147, Menderes, İzmir</span>
+                </h6>
               </div>
             </div>
           </div>
-          
+
           <br>
           <div class="row">
             <div class="col-lg-6">
@@ -630,7 +571,7 @@ https://templatemo.com/tm-591-villa-agency
   <footer>
     <div class="container">
       <div class="col-lg-12">
-        <p>© 2024 Karakuzu İnşaat A.Ş. Tüm hakları saklıdır.</p>
+        <p>© 2024 BMT Makina Balans - Tüm hakları saklıdır.</p>
       </div>
     </div>
   </footer>

@@ -7,6 +7,7 @@
  *  Owl Carousel - Core
  */
 .owl-carousel {
+  transition: opacity 1s ease-in-out;
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
